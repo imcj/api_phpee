@@ -1,0 +1,13 @@
+{
+    "name": "imcj/api_phpee",
+    "type": "project",
+    "authors": [
+        {
+            "name": "CJ",
+            "email": "weicongju@gmail.com"
+        }
+    ],
+    "require": {
+        "react/http": "dev-master",
+    }
+}
