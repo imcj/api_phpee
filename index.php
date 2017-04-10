@@ -1,8 +1,10 @@
 <?php
 require 'vendor/autoload.php';
 
+$listen = $argv[1];
+
 $loop = React\EventLoop\Factory::create();
-$socket = new React\Socket\Server(8080, $loop);
+$socket = new React\Socket\Server($listen, $loop);
 
 use React\Promise\Promise;
 use React\Http\Response;
