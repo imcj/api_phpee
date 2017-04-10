@@ -8,6 +8,6 @@
         }
     ],
     "require": {
-        "react/http": "dev-master",
+        "react/http": "dev-master"
     }
 }
